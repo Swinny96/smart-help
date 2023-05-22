@@ -9,7 +9,9 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-datocms',
     options: {
-      "apiToken": "7efcae7a1073420511dfb5b3df99b7"
+      "apiToken": "7efcae7a1073420511dfb5b3df99b7",
+      preview: false,
+      disableLiveReload: false,
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-sass", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',

@@ -4,7 +4,6 @@ import "./index.scss"
 const pageStyles = {
   color: "#232129",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
@@ -36,7 +35,7 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  color: "#8954A8",
+  color: "#003594",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",

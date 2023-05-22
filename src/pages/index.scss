@@ -36,3 +36,35 @@ $dark-grey-4: #393F41;
 $dark-grey-5: #1C1F21;
 $dark-grey-6: #121416;
 $black: #090A0B;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+h2 {
+    font-size: 1.45rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4,h5,h6 {
+    font-size: 1.1rem;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
+a {
+    color: $primary;
+}
