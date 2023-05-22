@@ -1,4 +1,5 @@
 import * as React from "react"
+import "./index.scss"
 
 const pageStyles = {
   color: "#232129",
